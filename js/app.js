@@ -15,6 +15,6 @@ const buscarLocation = async () => {
     console.log({ data })
     console.log('data.body' + data.body)
 
-    alert(data.city + ', ' + data.country)
+    alert(data.city + ', ' + data.region + ', ' + data.country)
 
 };
